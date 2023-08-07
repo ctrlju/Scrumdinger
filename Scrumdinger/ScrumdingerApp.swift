@@ -2,7 +2,7 @@
 //  ScrumdingerApp.swift
 //  Scrumdinger
 //
-//  Created by juliana on 07/08/23.
+//  Created by Juliana on 07/08/23.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct ScrumdingerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MeetingView()
         }
     }
 }
