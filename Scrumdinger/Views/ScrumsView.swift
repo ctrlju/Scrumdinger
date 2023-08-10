@@ -18,6 +18,7 @@ struct ScrumsView: View {
                 }
                 .listRowBackground(scrum.theme.mainColor)
             }
+            .padding(.horizontal, -4.0)
             .navigationTitle("Daily Scrums")
             .toolbar {
                 Button(action: {}) {
